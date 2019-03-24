@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Totally Trivial Trivia!</title>
+  
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  
+    <link href="https://fonts.googleapis.com/css?family=Great Vibes" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  </head>
+
+  <body>
+  
+    <div id="splashScreen">
+      <div id="splashScreenImage"></div>
+      <div id="splashScreenText">
+        <h1>Totally Trivial Trivia!</h1>
+        <hr>
+        <p>Try to Answer 10 Questions in 30 Seconds</p>
+      </div>
+      <button type="button" id="startButton">Start</button>
+    </div>
+  
+
+    <div id="game-board">
+      <h2>Totally Trivial Trivia!</h2>
+      <div id="timeRemaining">
+        <div>Time Remaining: </div>
+        <div id="secondsRemaining">30</div>
+        <div> Seconds</div>    
+      </div>
+  
+      <div id="questions">
+        <button type="button" id="doneButton">Done!</button>
+      </div>
+    </div>
+  
+
+    <div id="results">
+      <h2>Results</h2>
+      <hr>
+      <p id="correctAnswers">Correct Answers: </p>
+      <p id="incorrectAnswers">Incorrect Answers: </p>
+      <button type="button" id="playAgainButton">Play Again</button>
+    </div>
+  
+
+    <script src="assets/javascript/app.js"></script>
+
+
+  </body>
+</html>
